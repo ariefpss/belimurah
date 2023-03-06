@@ -13,10 +13,13 @@
     <%- include('./partials/header'); %>
     
     <!--* Content -->
+    <!--* Landing page & our service -->
     <div class="bg-lightyellow">
       <div class="container">
+
+        <!--* Landing landing  -->
         <div class="row align-items-center">
-          <div class="col-12 col-lg-5 mt-4 mb-5">
+          <div class="col-12 col-lg-5 mt-4">
             <h2 class="lh-base montserrat-bold text-dark">
               Murah, Mudah, & Mutu <br> Harga mulai dari 25K <br> untuk siapa saja.
             </h2>
@@ -27,39 +30,78 @@
               Beli Sekarang <img src="images/btn-buy-now.png" alt="btn-buy-now" class="ms-2">
             </button>
           </div>
-          <div class="col-lg-7 d-flex justify-content-start mt-5 mb-5 d-none d-lg-block">
+          <div class="col-lg-7 d-flex justify-content-start mt-5 d-none d-lg-block">
             <img src="images/visual-landing-page.png" alt="visual landing page" class="img-fluid">
           </div>
         </div>
-        <div class="position-relative">
-          <div class="col-8 bg-light position-absolute top-100 start-50 translate-middle rounded-2 p-3">
-            <div class="d-flex justify-content-between">
-              <div class="col-3 bg-lightyellow p-2 rounded-2 text-center">
-                <img src="images/icon service/icon-kualitas.png" alt="icon kualitas" class="img-fluid mb-3">
-                <p class="fs-6 montserrat-bold">Kuliatas Bermutu</p>
-                <p class="fs-7">Keharusan memberikan kuliatas yang bermutu</p>
+
+        <!--* Our service -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 mt-5 mb-5">
+            
+            <!--* Display for desktop  -->
+            <div class="d-none d-lg-block bg-light rounded-2 p-3 shadow">
+              <div class="d-flex justify-content-between">
+                <div class="col-2-5 bg-lightyellow p-2 rounded-2 text-center">
+                  <img src="images/icon service/icon-kualitas.png" alt="icon kualitas" class="img-fluid mb-3">
+                  <p class="fs-6 montserrat-bold">Kuliatas Bermutu</p>
+                  <p class="fs-7">Keharusan memberikan kuliatas yang bermutu</p>
+                </div>
+                <div class="col-2-5 bg-lightyellow p-2 rounded-2 text-center">
+                  <img src="images/icon service/icon-gratis-pengiriman.png" alt="icon kualitas" class="img-fluid mb-3">
+                  <p class="fs-6 montserrat-bold">Gratis Pengiriman</p>
+                  <p class="fs-7">Memberikan gratis pengantaran barang</p>
+                </div>
+                <div class="col-2-5 bg-lightyellow p-2 rounded-2 text-center">
+                  <img src="images/icon service/icon-hadiah.png" alt="icon kualitas" class="img-fluid mb-3">
+                  <p class="fs-6 montserrat-bold">Hadiah Menarik</p>
+                  <p class="fs-7">Berbagai macam bonus item dan discount harga</p>
+                </div>
+                <div class="col-2-5 bg-lightyellow p-2 rounded-2 text-center">
+                  <img src="images/icon service/icon-kualitas.png" alt="icon kualitas" class="img-fluid mb-3">
+                  <p class="fs-6 montserrat-bold">Kembali Uang</p>
+                  <p class="fs-7">Garansi uang kembali jika produk rusak</p>
+                </div>
               </div>
-              <div class="col-3 bg-lightyellow p-2 ms-4 rounded-2 text-center">
-                <img src="images/icon service/icon-kualitas.png" alt="icon kualitas" class="img-fluid mb-3">
-                <p class="fs-6 montserrat-bold">Kuliatas Bermutu</p>
-                <p class="fs-7">Keharusan memberikan kuliatas yang bermutu</p>
-              </div>
-              <div class="col-3 bg-lightyellow p-2 ms-4 rounded-2 text-center">
-                <img src="images/icon service/icon-kualitas.png" alt="icon kualitas" class="img-fluid mb-3">
-                <p class="fs-6 montserrat-bold">Kuliatas Bermutu</p>
-                <p class="fs-7">Keharusan memberikan kuliatas yang bermutu</p>
-              </div>
-              <div class="col-3 bg-lightyellow p-2 ms-4 rounded-2 text-center">
-                <img src="images/icon service/icon-kualitas.png" alt="icon kualitas" class="img-fluid mb-3">
-                <p class="fs-6 montserrat-bold">Kuliatas Bermutu</p>
-                <p class="fs-7">Keharusan memberikan kuliatas yang bermutu</p>
+            </div>
+
+            <!--* Display for mobile -->
+            <div class="d-lg-none bg-light rounded-2 p-3 shadow-sm">
+              <div class="d-flex flex-column">
+                <div class="col-12 mb-3 bg-lightyellow p-2 rounded-2 text-center">
+                  <img src="images/icon service/icon-kualitas.png" alt="icon kualitas" class="img-fluid mb-3">
+                  <p class="fs-6 montserrat-bold">Kuliatas Bermutu</p>
+                  <p class="fs-7">Keharusan memberikan kuliatas yang bermutu</p>
+                </div>
+                <div class="col-12 mb-3 bg-lightyellow p-2 rounded-2 text-center">
+                  <img src="images/icon service/icon-gratis-pengiriman.png" alt="icon kualitas" class="img-fluid mb-3">
+                  <p class="fs-6 montserrat-bold">Gratis Pengiriman</p>
+                  <p class="fs-7">Memberikan gratis pengantaran barang</p>
+                </div>
+                <div class="col-12 mb-3 bg-lightyellow p-2 rounded-2 text-center">
+                  <img src="images/icon service/icon-hadiah.png" alt="icon kualitas" class="img-fluid mb-3">
+                  <p class="fs-6 montserrat-bold">Hadiah Menarik</p>
+                  <p class="fs-7">Berbagai macam bonus item dan discount harga</p>
+                </div>
+                <div class="col-12 bg-lightyellow p-2 rounded-2 text-center">
+                  <img src="images/icon service/icon-kualitas.png" alt="icon kualitas" class="img-fluid mb-3">
+                  <p class="fs-6 montserrat-bold">Kembali Uang</p>
+                  <p class="fs-7">Garansi uang kembali jika produk rusak</p>
+                </div>
               </div>
             </div>
           </div>
+
+
         </div>
       </div>
     </div>
-    
+
+    <!--* Best selling product -->
+    <div class="container mt-5">
+      <h2 class="montserrat-bold text-center">Produk Paling Laris</h2>
+      <p class="fs-6 text-center">Cari produk yang terbaik untuk kamu, dari produk-produk terlaris</p>
+    </div>
 
     <!--* Footer  -->
     
