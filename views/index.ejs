@@ -7,6 +7,8 @@
     <title><%= title %></title>
     <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
     <link rel='stylesheet' href='/stylesheets/custom-bootstrap.min.css' />
+
+    <script src="https://kit.fontawesome.com/f8405fe6d9.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!--* Header  -->
@@ -26,8 +28,8 @@
             <p class="fs-6">
               Kami memberikan berbagai macam harga yang dapat di jangkau oleh semua kalangan, dengan produk bermutu & mudah transaksinya.
             </p>
-            <button type="button" class="btn btn-primary rounded-pill p-3 text-dark shadow montserrat-bold fs-6">
-              Belanja Sekarang <img src="images/btn/btn-arrow-right.png" alt="btn-arrow-right" class="ms-2">
+            <button type="button" class="btn btn-primary rounded-pill p-3 text-dark shadow montserrat-bold fs-6 d-flex align-items-center justify-content-center">
+              Belanja Sekarang <i class="fa-solid fa-arrow-right-long ms-2 fs-4"></i>
             </button>
           </div>
           <div class="col-lg-7 d-flex justify-content-start mt-5 d-none d-lg-block">
@@ -173,32 +175,141 @@
           </div>
         </div>
       </div>
-      <div class="text-center mt-4">
-        <button type="button" class="btn btn-primary rounded-pill p-3 text-dark shadow montserrat-bold fs-6">
-          Lihat Semua <img src="images/btn/btn-arrow-right.png" alt="btn-arrow-right" class="ms-2">
+      <div class="d-flex justify-content-center mt-4">
+        <button type="button" class="btn btn-primary rounded-pill p-3 text-dark shadow montserrat-bold fs-6 d-flex align-items-center justify-content-center">
+          Lihat Semua <i class="fa-solid fa-arrow-right-long ms-2 fs-4"></i>
         </button>
       </div>
     </div>
 
     <!--* Discount Event -->
-    <div class="container mt-5 mb-5">
-      <div class="bg-primary rounded-2 p-3 w-100">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="d-flex flex-column justify-content-center p-lg-5">
+    <div class="container d-flex justify-content-center mt-5 mb-5">
+      <div class="col-lg-10 col-12 bg-primary rounded-2 p-3">
+        <div class="d-flex flex-lg-row flex-column justify-content-between align-items-center">
+          <img class="img-fluid p-5 order-lg-1" src="images/produk/produk-tas selampang.png" alt="">
+          <div class="d-flex flex-column order-lg-0 justify-content-center p-lg-5">
             <p class="fs-5 montserrat-bold">Discount hari ini</p>
             <p class="fs-6 mb-0">Discount mulai dari <span class="montserrat-bold">15%</span></p>
             <p class="fs-6">Discount berlaku hanya <span class="montserrat-bold">7 hari</span></p>
-            <button type="button" class="btn btn-outline-lightyellow rounded-pill p-3 montserrat-bold fs-6">
-              Pesan Sekarang <img src="images/btn/btn-arrow-right-white.png" alt="btn-arrow-right">
+            <button type="button" class="btn btn-outline-lightyellow rounded-pill p-3 montserrat-bold fs-6 d-flex align-items-center justify-content-center">
+              Pesan Sekarang <i class="fa-solid fa-arrow-right-long ms-2 fs-4"></i>
             </button>
           </div>
-          <img class="img-fluid p-5" src="images/produk/produk-tas selampang.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!--* Testimonial users -->
+    <div class="container mt-5">
+      <h2 class="montserrat-bold text-center">Testimonial Customer</h2>
+      <p class="fs-6 text-center">Apa yang di katakan oleh customer kami</p>
+
+      <div class="row">
+        <div class="col-12 mb-5">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-lg-3 mb-3 mb-lg-0 d-lg-flex align-items-lg-stretch">
+                    <div class="d-flex flex-column justify-content-center rounded bg-lightyellow border border-1 shadow">
+                      <div class="d-flex flex-column align-items-center p-3 text-light">
+                        <img class="img-fluid mb-3" src="images/users/img-profil/user-arief.png" alt="profil testi">
+                        <h6 class="fw-bold text-primary">Arief Permana</h6>
+                      </div>
+                      <p class="pe-5 ps-5 pb-5 fs-7 mb-0 text-center">"Sangat mudah berbelanja disini dan murah produk-produknya"</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-3 mb-3 mb-lg-0 d-lg-flex align-items-lg-stretch">
+                    <div class="d-flex flex-column justify-content-center rounded bg-lightyellow border border-1 shadow">
+                      <div class="d-flex flex-column align-items-center p-3 text-light">
+                        <img class="img-fluid mb-3" src="images/users/img-profil/user-deryansha.png" alt="profil testi">
+                        <h6 class="fw-bold text-primary">Deryansha</h6>
+                      </div>
+                      <p class="pe-5 ps-5 pb-5 fs-7 mb-0 text-center">"Murah dan pengiriman barang sangat cepat & gratis"</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-3 mb-3 mb-lg-0 d-lg-flex align-items-lg-stretch">
+                    <div class="d-flex flex-column justify-content-center rounded bg-lightyellow border border-1 shadow">
+                      <div class="d-flex flex-column align-items-center p-3 text-light">
+                        <img class="img-fluid mb-3" src="images/users/img-profil/user-beni.png" alt="profil testi">
+                        <h6 class="fw-bold text-primary">Beni Mono</h6>
+                      </div>
+                      <p class="pe-5 ps-5 pb-5 fs-7 mb-0 text-center">"Produk-produk lengkap, bermutu dan respon yang cepat"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-lg-3 mb-3 mb-lg-0 d-lg-flex align-items-lg-stretch">
+                    <div class="d-flex flex-column justify-content-center rounded bg-lightyellow border border-1 shadow">
+                      <div class="d-flex flex-column align-items-center p-3 text-light">
+                        <img class="img-fluid mb-3" src="images/users/img-profil/user-beni.png" alt="profil testi">
+                        <h6 class="fw-bold text-primary">Beni Mono</h6>
+                      </div>
+                      <p class="pe-5 ps-5 pb-5 fs-7 mb-0 text-center">"Produk-produk lengkap, bermutu dan respon yang cepat"</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-3 mb-3 mb-lg-0 d-lg-flex align-items-lg-stretch">
+                    <div class="d-flex flex-column justify-content-center rounded bg-lightyellow border border-1 shadow">
+                      <div class="d-flex flex-column align-items-center p-3 text-light">
+                        <img class="img-fluid mb-3" src="images/users/img-profil/user-deryansha.png" alt="profil testi">
+                        <h6 class="fw-bold text-primary">Deryansha</h6>
+                      </div>
+                      <p class="pe-5 ps-5 pb-5 fs-7 mb-0 text-center">"Murah dan pengiriman barang sangat cepat & gratis"</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-3 mb-3 mb-lg-0 d-lg-flex align-items-lg-stretch">
+                    <div class="d-flex flex-column justify-content-center rounded bg-lightyellow border border-1 shadow">
+                      <div class="d-flex flex-column align-items-center p-3 text-light">
+                        <img class="img-fluid mb-3" src="images/users/img-profil/user-arief.png" alt="profil testi">
+                        <h6 class="fw-bold text-primary">Arief Permana</h6>
+                      </div>
+                      <p class="pe-5 ps-5 pb-5 fs-7 mb-0 text-center">"Sangat mudah berbelanja disini dan murah produk-produknya"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 text-center mt-4">
+              <a class="btn btn-outline-primary me-5 rounded-circle" href="" role="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+              </a>
+              <a class="btn btn-outline-primary rounded-circle" href="" role="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--* Subscribed  -->
+    <div class="bg-lightyellow">
+      <div class="container pt-5 pb-5">
+        <h2 class="montserrat-bold text-center mb-3">Mau dapat info promo yang menarik dari kami..?</h2>
+        <p class="fs-5 text-center mt-5">kami akan mengirimkan pengingat kepada Anda untuk informasi tentang discount menarik melalui email</p>
+
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 d-flex flex-column flex-lg-row">
+            <div class="input-group bg-light p-3 mb-2 mb-lg-0 me-lg-3 rounded-2 align-content-center">
+              <span class="input-group-text bg-light p-0 border-0" id="basic-addon1">
+                <img src="images/icon service/icon-email.png" alt="icon-email">
+              </span>
+              <input class="form-control bg-light border-0" type="email" id="emailSubscribe" placeholder="permanaarief8@gmail.com">
+            </div>
+            <button class="btn btn-primary rounded-pill p-3 montserrat-bold fs-6 d-flex align-items-center justify-content-center" type="button">
+              Langganan
+            </button>
+          </div>
         </div>
       </div>
     </div>
 
     <!--* Footer  -->
+    <%- include('./partials/footer'); %>
     
+    </div>
     <!-- <script src="bootstrap.bundle.js"></script> -->
     <script src="bootstrap.min.js"></script>
   </body>
